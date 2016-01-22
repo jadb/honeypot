@@ -1,0 +1,24 @@
+{
+    "name": "jadb/honeypot",
+    "description": "Project Honey Pot (un-official) PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Honeypot\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Honeypot\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
